@@ -1,0 +1,1 @@
+web: gunicorn rsstuaba.wsgi --log-file -
