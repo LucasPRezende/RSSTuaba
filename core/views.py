@@ -5,5 +5,8 @@ from django.shortcuts import render
 def index(request):
     return render(request, "index.html")
 
-def login(request):
-    return render(request, "login.html")
+def leitor(request):
+    return render(request, "leitor.html")
+
+def registrar(request):
+    return render(request, "registrar.html")
